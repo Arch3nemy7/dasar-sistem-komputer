@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Looping</title>
+    </head>
+	<body>
+        <div id ="demo"></div>
+            <script>
+            let string = "";
+            for (let i = 1 ; i <= 10 ; i++){
+            	for (let j = 1 ; j <= 10 ; j++){
+                    string += "*";
+                }
+                string += "<br>";
+            }
+            document.getElementById("demo").innerHTML = string;
+            </script>
+    </body>
+</html>
